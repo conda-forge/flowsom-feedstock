@@ -1,5 +1,5 @@
 {% set name = "flowsom" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/saeyslab/FlowSOM_Python/archive/v{{ version }}.tar.gz
-  sha256: 2b228333137ba634df7887b0561f2172ee7d0dcb7842d25975c92753594cbd42
+  sha256: 3941ce0c474b2445ac1bca765d6b5d39829e3fb01df475847a453798812f40ef
 
 build:
   noarch: python
