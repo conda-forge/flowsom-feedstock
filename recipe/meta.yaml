@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - mudata <=0.2.4
+    - mudata
     - numpy
     - matplotlib-base
     - pandas
@@ -34,7 +34,7 @@ requirements:
     - numba
     - scanpy
     - seaborn
-    - anndata <=0.10.8
+    - anndata
     - loguru
 
 test:
